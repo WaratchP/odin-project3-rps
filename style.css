@@ -1,0 +1,38 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    flex-direction: column;
+}
+
+.containerHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+}
+
+.containerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.gameStartButton {
+    width: 200px;
+}
+
+.choiceButton {
+    width: 100px;
+}
